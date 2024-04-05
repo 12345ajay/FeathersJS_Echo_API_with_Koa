@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@feathersjs/feathers": "^5.0.24",
+    "@feathersjs/koa": "^5.0.24"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  },
+  "scripts": {
+    "dev": "ts-node app.ts"
+  }
+}
