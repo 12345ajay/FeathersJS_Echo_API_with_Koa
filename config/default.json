@@ -1,0 +1,17 @@
+{
+    "authentication": {
+      "secret": "CHANGE_ME",
+      "entity": "user",
+      "service": "users",
+      "authStrategies": ["jwt", "local"],
+      "jwtOptions": {
+        "header": { "typ": "access" },
+        "audience": "https://yourdomain.com",
+        "issuer": "feathers",
+        "algorithm": "HS256",
+        "expiresIn": "1d"
+      }
+    },
+    "port": "PORT",
+    "mongodb": "mongodb://localhost:27017"
+  }
